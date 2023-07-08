@@ -32,7 +32,10 @@
         }
       },
       "MissingValues": [
-        "nan"
+        "nan",
+        "n/a",
+        "",
+        " "
       ]
     }
   },
@@ -47,7 +50,12 @@
       "Transformation": {
         "TermURL": "nb:float",
         "Label": "float data"
-      }
+      },
+      "MissingValues": [
+        "",
+        "n/a",
+        " "
+      ]
     }
   }
 }
