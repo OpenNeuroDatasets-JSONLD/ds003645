@@ -7,7 +7,7 @@
         "TermURL": "nb:ParticipantID",
         "Label": ""
       },
-      "Identifies": "participant"
+      "VariableType": "Identifier"
     }
   },
   "gender": {
@@ -36,7 +36,8 @@
         " ",
         "nan",
         "n/a"
-      ]
+      ],
+      "VariableType": "Categorical"
     }
   },
   "age": {
@@ -47,15 +48,16 @@
         "TermURL": "nb:Age",
         "Label": ""
       },
-      "Transformation": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
       "MissingValues": [
         "",
         "n/a",
         " "
-      ]
+      ],
+      "Format": {
+        "TermURL": "nb:FromFloat",
+        "Label": "float data"
+      },
+      "VariableType": "Continuous"
     }
   }
 }
